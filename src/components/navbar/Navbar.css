@@ -1,0 +1,65 @@
+.navbar {
+  background: linear-gradient(
+    to right bottom,
+    rgb(6, 6, 67),
+    rgb(7, 24, 121),
+    rgb(17, 11, 66)
+  );
+  height: 500px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.4;
+  border-radius: 20px 20px 0px 0px;
+  opacity: 0.9;
+  display: flex;
+}
+.container-fluid {
+  width: 80%;
+  height: 100%;
+}
+.btn_div {
+  height: 50px;
+  width: 20%;
+  border: 1px solid yellow;
+  background-color: yellow;
+  color: black;
+  margin: 8px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0px 20px 0px 20px;
+}
+.btn_div:hover {
+  border: 1px solid rgb(200, 200, 10);
+  background-color: rgb(200, 200, 10);
+  color: white;
+  transition: 250ms;
+  cursor: pointer;
+}
+
+.hello_sec {
+  margin: 12rem auto auto auto !important;
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  border: 1px solid transparent;
+  text-align: center;
+  justify-content: center;
+}
+.hello_sec .p {
+  margin: 3rem !important;
+  color: grey;
+}
+@media (max-width: 768px) {
+  .btn_div {
+    height: 70px;
+    width: 20%;
+    border: 1px solid yellow;
+    background-color: yellow;
+    color: black;
+    margin: 8px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px 20px 0px 20px;
+  }
+}
