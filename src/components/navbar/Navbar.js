@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 // import { Dialog, Popover, Transition } from "@headlessui/react";
 // import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -15,7 +16,9 @@ function Navbar() {
           </a>
         </div>
         <div class="btn_div">
-          <button class="btn btn-sm my-4 mx-4">Get Started</button>
+          <Link to="/getLst">
+            <button class="btn btn-sm my-4 mx-4">Get Started</button>
+          </Link>
         </div>
       </nav>
       <div className="hello_sec">

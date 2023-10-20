@@ -4,6 +4,8 @@
   .color_overlay {
     margin-left: -1.2rem;
     margin-top: -0.7rem;
+    height: 300px;
+    width: 100%;
   }
 }
 
@@ -115,7 +117,7 @@
     height: 100%;
     width: 98%;
     padding: 4px;
-    margin: 4px;
+    margin: 0px;
   }
 }
 
