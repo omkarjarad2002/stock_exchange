@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import axios from "axios";
 import "./Addcompany.css";
+import Navbar from "../navbar/Navbar";
+import Nav from "../navbar/Nav";
 
 function Addcompany() {
   const navigate = useNavigate();
@@ -79,13 +81,14 @@ function Addcompany() {
       window.alert("Please register first !");
       navigate("/register");
     } else {
-      window.alert("Resataurant added Successfully !!");
+      window.alert("Company added Successfully !!");
       navigate("/fooditems");
     }
   };
 
   return (
     <div>
+      <Nav />
       <section
         className="section__height d-flex align-items-center justify-content-center"
         id="contact"
@@ -188,14 +191,14 @@ function Addcompany() {
               </div>
               <div className="d-grid pb-3  d-md-block">
                 <button
-                  className="btn btn-outline-danger  p-2   rounded"
+                  className="btn btn_cr btn-outline-danger  p-2   rounded"
                   id="button"
                   type="submit"
                   value="Submit"
                   role="button"
                   onClick={PostData}
                 >
-                  Add Restaurant
+                  Register
                 </button>
               </div>
             </form>

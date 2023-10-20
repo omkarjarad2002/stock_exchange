@@ -2,20 +2,42 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   background-color: white;
-  box-shadow: 1px 4px 4px 4px rgb(233, 233, 233);
   height: auto;
-  border: 1px solid red;
   padding: 2rem;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.container1 input {
+.container1 .form-control {
   border: none;
+  width: 500px;
+  padding: 4px;
+  outline: none;
+  text-transform: capitalize;
 }
-.container1 textarea {
-  border: none;
-}
+
 .container1 hr {
   color: grey;
 }
-.contact__container input:hover {
-  box-shadow: 1px 1px 3px #e2dfdf;
+
+.btn_cr {
+  margin: 2rem auto auto auto;
+}
+.btn_cr:hover {
+  margin: 2rem auto auto auto;
+}
+.contact__container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  box-shadow: 1px 4px 4px 4px rgb(233, 233, 233);
+  height: auto;
+  padding: 4rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
 }
