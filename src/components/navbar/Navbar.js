@@ -11,6 +11,7 @@ function Navbar() {
     useContext(conApp);
 
   const handleConnection = async () => {
+    console.log("Clicked");
     try {
       if (!window.ethereum) {
         console.log("No metamask");
@@ -47,11 +48,9 @@ function Navbar() {
         </div>
         <div class="btn_div">
           {userAdd == "" ? (
-            <Link to="/getLst">
-              <button class="btn btn-sm my-4 mx-4" onClick={handleConnection}>
-                Connect To Wallet
-              </button>
-            </Link>
+            <button class="btn btn-sm my-4 mx-4" onClick={handleConnection}>
+              Connect To Wallet
+            </button>
           ) : (
             <button class="btn btn-sm my-4 mx-4" onClick={handleConnection}>
               {userAdd.substring(0, 4) +
@@ -71,9 +70,7 @@ function Navbar() {
           need
         </p>
 
-        {/* <button onClick={}></button>
-         */}
-        <Link to="/getLst" className="btn btn-sm border p-3 btn-primary">
+        <Link to="/add_company" className="btn btn-sm border p-3 btn-primary">
           Get Started
         </Link>
       </div>

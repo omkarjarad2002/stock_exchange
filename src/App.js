@@ -7,6 +7,7 @@ import Team from "./components/team/Team";
 import { createContext } from "react";
 import Exchanger from "./components/stockexchange/Exchanger";
 import CompanyLst from "./components/companyLst/CompanyLst";
+import Addcompany from "./components/addcompany/Addcompany";
 
 export const UserContext = createContext();
 
@@ -40,6 +41,14 @@ function App() {
             element={
               <>
                 <Exchanger />
+              </>
+            }
+          ></Route>
+          <Route
+            path="/add_company"
+            element={
+              <>
+                <Addcompany />
               </>
             }
           ></Route>

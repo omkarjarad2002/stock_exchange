@@ -1,0 +1,21 @@
+.container1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  box-shadow: 1px 4px 4px 4px rgb(233, 233, 233);
+  height: auto;
+  border: 1px solid red;
+  padding: 2rem;
+}
+.container1 input {
+  border: none;
+}
+.container1 textarea {
+  border: none;
+}
+.container1 hr {
+  color: grey;
+}
+.contact__container input:hover {
+  box-shadow: 1px 1px 3px #e2dfdf;
+}

@@ -21,8 +21,6 @@
 .btn_div {
   height: 50px;
   width: 20%;
-  border: 1px solid yellow;
-  background-color: yellow;
   color: black;
   margin: 8px;
   text-align: center;
@@ -30,8 +28,6 @@
   border-radius: 0px 20px 0px 20px;
 }
 .btn_div:hover {
-  border: 1px solid rgb(200, 200, 10);
-  background-color: rgb(200, 200, 10);
   color: white;
   transition: 250ms;
   cursor: pointer;

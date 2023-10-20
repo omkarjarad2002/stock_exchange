@@ -110,7 +110,7 @@
   z-index: 1;
   position: absolute;
   padding: 6px;
-  color: orangered;
+  color: rgb(237, 4, 43);
   border-radius: 40px;
 }
 .circle {
@@ -129,5 +129,5 @@
   margin-top: -8rem;
   margin-left: 2rem;
   z-index: 1;
-  color: orangered;
+  color: rgb(237, 4, 43);
 }
