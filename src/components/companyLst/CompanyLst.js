@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./CompanyLst.css";
+import Nav from "../navbar/Nav";
 
 function CompanyLst() {
   const companyData = [
@@ -36,6 +37,7 @@ function CompanyLst() {
 
   return (
     <div className="container">
+        <Nav/>
       <div className="heading">
         <h1 className="text-4xl py-5 px-5 font-sans font-bold">
           Company name's & shares

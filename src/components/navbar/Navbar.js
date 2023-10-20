@@ -17,7 +17,7 @@ function Navbar() {
         </div>
         <div class="btn_div">
           <Link to="/getLst">
-            <button class="btn btn-sm my-4 mx-4">Get Started</button>
+            <button class="btn_start btn-sm my-4 mx-4">Get Started</button>
           </Link>
         </div>
       </nav>
@@ -35,4 +35,3 @@ function Navbar() {
 }
 
 export default Navbar;
-// https://dribbble.com/shots/21918621-Equilink-Landing-page-for-stock-exchange-platform
