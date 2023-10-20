@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router";
 import axios from "axios";
 import "./Addcompany.css";
-import Navbar from "../navbar/Navbar";
 import Nav from "../navbar/Nav";
 
 function Addcompany() {
@@ -105,14 +104,14 @@ function Addcompany() {
                   className="form-control"
                   id="validationDefault01"
                   name="name"
-                  placeholder="Enter company Name"
+                  placeholder=""
                   onChange={handleInputs}
                   required
                 />
               </div>
               <hr />
               <div className="mb-3 pt-2 d-flex text-align-center align-items-center">
-                <label htmlhtmlFor="name">
+                <label htmlhtmlFor="totalshares">
                   <i className="zmdi zmdi-store">Total number of shares : </i>
                 </label>
                 <input
@@ -120,14 +119,14 @@ function Addcompany() {
                   className="form-control"
                   id="validationDefault01"
                   name="totalshares"
-                  placeholder="Enter number of shares"
+                  placeholder=""
                   onChange={handleInputs}
                   required
                 />
               </div>
               <hr />
               <div className="mb-3 pt-2 d-flex text-align-center align-items-center">
-                <label htmlhtmlFor="name">
+                <label htmlhtmlFor="availableshares">
                   <i className="zmdi zmdi-store">Total available shares : </i>
                 </label>
                 <input
@@ -135,14 +134,14 @@ function Addcompany() {
                   className="form-control"
                   id="validationDefault01"
                   name="availableshares"
-                  placeholder="Enter available shares"
+                  placeholder=""
                   onChange={handleInputs}
                   required
                 />
               </div>
               <hr />
               <div className="mb-3 pt-2 d-flex text-align-center align-items-center">
-                <label htmlhtmlFor="name">
+                <label htmlhtmlFor="shareprice">
                   <i className="zmdi zmdi-store">Enter each share price : </i>
                 </label>
                 <input
@@ -150,7 +149,7 @@ function Addcompany() {
                   className="form-control"
                   id="validationDefault01"
                   name="shareprice"
-                  placeholder="Enter Share Price"
+                  placeholder=""
                   onChange={handleInputs}
                   required
                 />
