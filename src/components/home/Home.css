@@ -1,0 +1,150 @@
+/* rgb(35, 124, 168), */
+
+@media (max-width: 768px) {
+  .color_overlay {
+    margin-left: -1.2rem;
+    margin-top: -0.7rem;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+.head_div {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 380px;
+  border: 1px solid transparent;
+  margin: -8rem auto 4rem auto;
+  border: 1px solid transparent;
+}
+
+.head_div p {
+  color: #170354;
+  font-family: sans-serif;
+}
+.head_h {
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-top: 10rem;
+  z-index: 0.1;
+  color: #170354;
+}
+.learn_more_div {
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  color: white;
+  height: 50px;
+  width: 170px;
+  border: 1px solid white;
+  background: transparent;
+}
+.learn_more_div:hover {
+  color: white;
+  background-color: #170354;
+  border: 1px solid #170354;
+  transition: 250ms;
+}
+.learn_more_div .for_arrow:hover {
+  color: white;
+}
+.tech {
+  height: 120px;
+  width: 98%;
+  border: 1px solid #f5f6f6;
+  display: flex;
+  margin: 1rem;
+  border-radius: 12px 12px 12px 12px;
+  background-color: #f5f6f6;
+}
+.tech hr {
+  height: 60%;
+  width: 3px;
+  background-color: #170354;
+  border-radius: 50px;
+  padding: 1px;
+  margin: 24px 0px 0px 20px;
+  color: #170354;
+}
+.box {
+  height: 100%;
+  width: 30%;
+  padding: 4px;
+  margin: 4px;
+  margin: 1rem !important;
+}
+.box dt {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.box dd {
+  font-family: sans-serif;
+}
+@media (max-width: 1010px) {
+  .tech {
+    height: 400px;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 5rem 1rem 1rem;
+  }
+  .tech hr {
+    display: none;
+  }
+  .box {
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    margin: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tech {
+    height: 400px;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0.5rem;
+  }
+
+  .box {
+    height: 100%;
+    width: 98%;
+    padding: 4px;
+    margin: 0px;
+  }
+}
+
+/* background-color: #f5f6f6; */
+@media (max-width: 768px) {
+  .home {
+    padding: 10px;
+  }
+  .head_div {
+    height: 450px;
+    width: 300px;
+  }
+  .head_h {
+    margin-top: 10rem;
+    font-size: 20px;
+  }
+
+  .head_h2 {
+    font-size: 18px;
+    margin: 14rem auto 3rem auto;
+  }
+
+  .success_div {
+    font-size: 14px;
+    width: auto;
+  }
+}
+.tech dt {
+  color: #0c0426;
+}

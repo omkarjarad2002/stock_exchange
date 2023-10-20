@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+  .team {
+    margin-top: 40rem;
+  }
+  .ser_sol_div {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ser_sol_sep {
+    height: 100%;
+    width: 300px;
+  }
+}
+
+@media (max-width: 645px) {
+  .team {
+    margin-top: 40rem;
+  }
+}
+.team_headings {
+  display: flex;
+}
+.leader {
+  margin-left: 9px;
+  color: aqua;
+}
+.success_app {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(
+    to right bottom,
+    rgb(6, 6, 67),
+    rgb(7, 24, 121),
+    rgb(17, 11, 66)
+  );
+  margin-top: 5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.success_img {
+  height: 300px;
+  width: 300px;
+  border: 10px solid white;
+  border-radius: 50%;
+  margin: 2rem auto auto auto;
+  box-shadow: 5px 10px rgb(97, 237, 237);
+  /* background-image: url("../../../public/images/iStock-1221524154.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.success_info {
+  height: 600px;
+  width: 800px;
+  border: 1px solid transparent;
+  margin: auto;
+}
+.success_info_inner_div {
+  height: 400px;
+  width: 500px;
+  border: 1px solid transparent;
+  margin: auto;
+}
+.head_succ {
+  color: #0c0426 !important;
+  margin-top: 2rem;
+}
+.succ_details {
+  margin-left: 1px;
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+}
+
+.pearson {
+  height: 400px;
+  width: 350px;
+  border: 1px solid #bae7f7;
+  border-radius: 20px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(6, 6, 67),
+    rgb(7, 24, 121),
+    rgb(17, 11, 66)
+  );
+}
+.pearson img {
+  /* background-image: url("../../../public/images/profile_icon.png"); */
+  border-radius: 20px;
+  height: 100%;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pearson_div {
+  height: 40px;
+  width: auto;
+  background: linear-gradient(
+    to right bottom,
+    rgb(6, 6, 67),
+    rgb(7, 24, 121),
+    rgb(17, 11, 66)
+  );
+  margin-top: 1rem;
+  margin-left: 2rem;
+  z-index: 1;
+  position: absolute;
+  padding: 6px;
+  color: orangered;
+  border-radius: 40px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  border: 1px solid white;
+  position: absolute;
+  margin-left: -2rem;
+  border-radius: 50%;
+  margin-top: -1.5rem;
+}
+.pearson_name {
+  height: auto;
+  width: 290px;
+  position: absolute;
+  margin-top: -8rem;
+  margin-left: 2rem;
+  z-index: 1;
+  color: orangered;
+}

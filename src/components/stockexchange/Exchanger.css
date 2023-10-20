@@ -1,0 +1,76 @@
+.exchange_dashboard {
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+}
+.company_info_container {
+  height: 550px;
+  width: 50%;
+  margin: 4px;
+}
+.buy_stock_container {
+  height: 550px;
+  width: 50%;
+  margin: 4px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .exchange_dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+  .company_info_container {
+    width: 100%;
+  }
+  .buy_stock_container {
+    width: 100%;
+  }
+}
+
+.company_info_container img {
+  height: 400px;
+  width: 250px;
+  margin: 2rem auto auto auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 6px 4px 4px rgb(95, 95, 95);
+}
+
+.qty_price_container {
+  height: 200px;
+  width: 90%;
+  margin: 6rem auto auto auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.gty_div {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+.qty_name {
+  height: 100%;
+  width: 30%;
+  padding: 4px;
+}
+.qty_input {
+  border: 1px solid black;
+  width: 300px;
+  height: 35px;
+}
+.price_input {
+  border: 1px solid black;
+  width: 300px;
+  height: 35px;
+}
+.qty_price {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
